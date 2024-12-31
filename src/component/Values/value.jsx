@@ -23,8 +23,7 @@ const Values = () => {
                 <div className="flexColStart v-right">
                     <span className="orangeText">Our Value</span>
                     <span className="primaryText">Value We Give</span>
-                    <span className="secondaryText">We are ready to assist by providing top quality <br /> services and materials, beliving
-                        in <br /> making better place to live</span>
+                    <span className="secondaryText">Brindavana Developers is your trusted partner for all your construction needs in Mangalore. With over 10 years of experience in the construction industry, <br/> we are committed to delivering high-quality and sustainable construction solutions to our clients.</span>
 
                     <Accordion
                         allowMultipleExpanded={false}

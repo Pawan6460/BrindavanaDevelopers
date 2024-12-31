@@ -35,7 +35,7 @@ const Contact = () => {
                                         </div>
                                         <div className="flexColStart detail">
                                             <span className="primaryText">Address</span>
-                                            <span className="secondaryText">3-2/1 Brindavana Talapady Mangalore </span>
+                                            <span className="secondaryText">3-2/1 Santhya Padav, Talapady Mangalore 575023 </span>
                                         </div>
                                     </div>
                                 </div>

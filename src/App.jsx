@@ -4,13 +4,12 @@ import Companies from "./component/Companies/Companies";
 import Residencies from "./component/Residencies/Residencies";
 import Values from "./component/Values/value";
 import Contact from "./component/Contact/contact";
-
+import Footer from "./component/Footer/footer";
 function App() {
   return (
 <div className="App">
   <Header/>
   <Hero/>
-  <Companies/>
   <section id="residencies">
   <Residencies/>
   </section>
@@ -19,6 +18,9 @@ function App() {
   </section>
   <section id='contactUs'>
   <Contact/>
+  </section>
+  <section id="footer">
+   <Footer/>
   </section>
 </div>
   );
