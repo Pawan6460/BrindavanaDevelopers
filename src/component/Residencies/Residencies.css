@@ -1,0 +1,46 @@
+.r-head{
+    margin-bottom: 2rem;
+}
+
+.r-contaier {
+    overflow: hidden;
+}
+.r-card{
+    gap: 0.6rem;
+    padding: 1rem;
+    border-radius: 10px;
+    max-width: max-content;
+    margin: auto;
+    transition: all 300ms ease-in;
+}
+
+.r-card>img{
+    width: 100%;
+    max-width: 15rem;
+}
+
+.r-card img{
+    text-decoration: none;
+}
+
+.r-card>:nth-child(2){
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin: 0 0.4rem;
+}
+
+.r-card>:nth-child(3){
+    font-size: 1rem;
+    margin: 0 0.4rem;
+}
+
+.r-card>:nth-child(4){
+    font-size: 0.7rem;
+    width: 15rem;
+    display: block;
+}
+
+.centerText{
+    text-align: center;
+}
+

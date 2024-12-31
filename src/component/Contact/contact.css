@@ -1,0 +1,73 @@
+.c-container {
+    justify-content: space-between;
+}
+.c-container > div {
+   flex: 1; 
+}
+
+.c-right {
+    width: 100%;
+}
+
+.c-left {
+    gap: 0.5rem;
+}
+
+.c-wrapper .image-container {
+    border: 8px solid rgb(232 232 232 / 92%);
+}
+
+.image-container > img {
+    width: 100%;
+    height: 100%;
+}
+
+.contactModes {
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.contactModes .row {
+    gap: 1.5rem;
+}
+
+.flexStart{
+    display: flex;
+    gap: 2rem;
+}
+.mode.expanded {
+    width: 34rem;
+}
+
+.mode {
+    width: 16rem;
+    padding: 1rem;
+    border: 0.8rem solid rgba(128, 128, 128, 0.143);
+    border-radius: 5px;
+    gap: 1rem;
+    transition: all 300ms ease-in;
+}
+.mode .button {
+    width: 100%;
+    background-color: var(--lightblue);
+    color:var(--blue);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.mode >:nth-child(1) {
+    width: 100%;
+    gap: 1.6rem;
+}
+.mode .primaryText {
+    font-size: 1rem;
+}
+.mode:hover{
+    scale: 1.1;
+    box-shadow: var(--shadow);
+}
+.mode button:hover {
+    background: var(--blue-gradient);
+    color: white;
+    scale: 0.8;
+    cursor: pointer;
+}
